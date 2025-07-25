@@ -52,7 +52,7 @@ body {
   margin: 0;
 }
 
-.szent-istvan {
+.text-box1 {
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   line-height: 1.6;
@@ -65,7 +65,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.szent-istvan a {
+.text-box1 a {
   color: darkblue;
   text-decoration: none;
   font-weight: bold;
