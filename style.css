@@ -47,10 +47,11 @@ body {
   margin: 0 auto;    
   padding: 10px;
   background-color: #f9f9f9; 
-  border-radius: 15px;
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   margin-top: 100px;
   padding-left: -300px;
+  transition: box-shadow 0.3s ease;
 }
 .dzsami-leiras p {
   margin-bottom: 1em;
