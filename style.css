@@ -61,6 +61,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: bold;
+  margint-top: -350px;
 }
 
 .bottom-text a {
