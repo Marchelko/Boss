@@ -82,6 +82,7 @@ body {
   flex: 1;
   height: 320px; 
   overflow-y: auto; 
+  padding-left: 60px;
 }
 
 .text-box1 a {
