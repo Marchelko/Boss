@@ -53,7 +53,7 @@ body {
 }
 
 .szentpál-image {
-   display: flex;
+  display: flex;
   align-items: stretch; 
   gap: 20px;
   padding: 20px;
@@ -62,7 +62,7 @@ body {
   }
 
 .szentpál-image img {
-   height: 120px;
+  height: 120px;
   width: auto;
   border-radius: 20px;
   object-fit: cover;
