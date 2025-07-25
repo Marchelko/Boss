@@ -73,8 +73,14 @@ display: flex;
   border-radius: 20px;
   object-fit: cover;
   padding-left: 60px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
+.szentpál-image img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
 
 .text-box1 {
  padding: 15px 20px;
