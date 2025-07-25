@@ -10,9 +10,10 @@ body {
 
 .top-image {
   text-align: left;
-  margin-bottom: 20px;
   position: relative;
   width: 80px;
+  height: 80px;
+  objec-fit: cover;
 
  
 }
