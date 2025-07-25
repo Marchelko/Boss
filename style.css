@@ -4,43 +4,35 @@ body {
   color: #333;
   margin: 0;
   padding: 20px;
-  height: 100%;
-  box-shadow: 0 0 50px rgba(0,0,0,0.1);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
 }
 
 .dzsami-image {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
   padding: 20px;
-  margin-bottom: 20px;
-  padding-left: 20px;
-  }
-  
- .dzsami-image img {
-   height: 300px;
-   width: 400px;
-   border-radius: 20px;
-   objec-fit: cover;
+  margin-bottom: 40px;
+}
+
+.dzsami-image img {
+  height: 300px;
+  width: auto;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 .text-box {
-  border: 1px
   padding: 15px;
   border-radius: 15px;
-  max-width: 500px;
-  background-color: white;
+  background-color: #f9f9f9;
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  color: #222;  
-  margin: 0 auto;    
-  background-color: #f9f9f9; 
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  margin-top: 110px;
-  padding-right: 1000px;
-  transition: box-shadow 0.3s ease;
-  }
+  color: #222;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
 
 .center {
   text-align: center;
@@ -51,9 +43,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: black;
   font-size: 50px;
-  text-align: center;
-  margin-top: -620px;
-  
+  margin-top: 0;
 }
 
 .szent-istvan {
@@ -61,15 +51,12 @@ body {
   font-size: 18px;
   line-height: 1.6;
   color: #222;
-  max-width: 920px;  
-  margin: 0 auto;    
-  padding: 10px;
-  background-color: #f9f9f9; 
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 20px 60px;
+  background-color: #f9f9f9;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  margin-top: -110px;
-  padding-left: 60px;
-  transition: box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .szent-istvan a {
