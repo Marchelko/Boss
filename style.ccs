@@ -19,7 +19,7 @@ body {
 .profile-pic {
   width: 10%;
   height: 30px;
-  border-radius: 30px;
+  border-radius: 20px;
   object-fit: cover;
 }
 
