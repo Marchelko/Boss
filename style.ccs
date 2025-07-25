@@ -11,9 +11,7 @@ body {
 .top-image {
   text-align: left;
   margin-bottom: 20px;
-  position: fixed;
-  top: 20px;
-  
+ 
 }
 
 .profile-pic {
