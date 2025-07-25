@@ -13,12 +13,15 @@ body {
   align-items: center;
   gap: 20px;
   padding: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
   }
   
  .dzsami-image img {
    height: 500px;
    width: 500px;
-   border-radius: 10;
+   border-radius: 20px;
+   objec-fit: cover;
 }
 
 .text-box {
