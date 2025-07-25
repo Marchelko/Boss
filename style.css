@@ -9,10 +9,10 @@ body {
 
 .dzsami-image {
   display: flex;
-  align-items: stretch; /* kép és szöveg magasság egyezik */
+  align-items: stretch; 
   gap: 20px;
   padding: 20px;
-  margin-top: 140px; /* LEHOZZUK az egész szekciót */
+  margin-top: 140px; 
   margin-bottom: 60px;
 }
 
@@ -33,13 +33,13 @@ body {
   color: #222;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   flex: 1;
-  height: 320px; /* ugyanakkora mint a kép */
-  overflow-y: auto; /* ha hosszabb a szöveg, görgethető */
+  height: 320px; 
+  overflow-y: auto; 
 }
 
 .center {
-  position: absolute;  /* pozíció rögzítése */
-  top: 30px;            /* FENTRE kerül! */
+  position: absolute;  
+  top: 30px;            
   left: 0;
   right: 0;
   text-align: center;
