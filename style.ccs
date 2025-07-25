@@ -11,6 +11,9 @@ body {
 .top-image {
   text-align: left;
   margin-bottom: 20px;
+  position: relative;
+  width: 80px;
+
  
 }
 
