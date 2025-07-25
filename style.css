@@ -53,12 +53,12 @@ body {
 }
 
 .szentpál-image {
-  display: flex;
-  flex-direction: row reverse;
-  align-items: stretch; 
+display: flex;
+  flex-direction: row-reverse; 
+  align-items: stretch;
   gap: 20px;
   padding: 20px;
-  margin-top: 140px; 
+  margin-top: 140px;
   margin-bottom: 60px;
   }
 
