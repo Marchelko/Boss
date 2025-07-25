@@ -42,7 +42,8 @@ body {
   flex: 1;
   }
   .text-box a {
-   color: darkblue;  
+   color: darkblue;
+  font-weight: bold;
 }
 
 .center {
