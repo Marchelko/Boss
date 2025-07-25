@@ -50,7 +50,7 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   margin-top: 110px;
-  padding-left: -260px;
+  padding-left: 150px;
   transition: box-shadow 0.3s ease;
 }
 .dzsami-leiras p {
@@ -64,7 +64,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: bold;
-  margint-top: -150px;
+  margin-top: -150px;
 }
 
 .bottom-text a {
