@@ -67,6 +67,7 @@ body {
   border-radius: 20px;
   object-fit: cover;
   padding-left: 60px;
+  position: left;
 }
 
 
