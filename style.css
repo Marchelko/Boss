@@ -40,6 +40,9 @@ body {
   color: #222;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   flex: 1;
+  }
+  .text-box a {
+   color: darkblue;  
 }
 
 .center {
