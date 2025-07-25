@@ -9,15 +9,15 @@ body {
 
 .dzsami-image {
   display: flex;
-  align-items: flex-start; /* a kép és szöveg teteje egy vonalba kerül */
+  align-items: stretch; /* kép és szöveg magasság egyezik */
   gap: 20px;
   padding: 20px;
-  margin-top: 80px; /* EZ viszi lejjebb az egészet! */
-  margin-bottom: 40px;
+  margin-top: 140px; /* LEHOZZUK az egész szekciót */
+  margin-bottom: 60px;
 }
 
 .dzsami-image img {
-  height: 300px;
+  height: 320px;
   width: auto;
   border-radius: 20px;
   object-fit: cover;
@@ -33,39 +33,25 @@ body {
   color: #222;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Ez hozza egy szintbe a szöveget a képpel */
-  height: 300px; /* Ugyanakkora mint a kép, így a border is passzol */
+  height: 320px; /* ugyanakkora mint a kép */
+  overflow-y: auto; /* ha hosszabb a szöveg, görgethető */
 }
 
 .center {
+  position: absolute;  /* pozíció rögzítése */
+  top: 30px;            /* FENTRE kerül! */
+  left: 0;
+  right: 0;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .main-title {
   font-family: 'Roboto', sans-serif;
   color: black;
   font-size: 50px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .szent-istvan {
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
-  line-height: 1.6;
-  color: #222;
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 20px 60px;
-  background-color: #f9f9f9;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
 
-.szent-istvan a {
-  color: darkblue;
-  text-decoration: none;
-  font-weight: bold;
-}
