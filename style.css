@@ -38,6 +38,23 @@ body {
   
 }
 
+.dzsami-leiras {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #222;
+  max-width: 700px;  
+  margin: 0 auto;    
+  padding: 20px;
+  background-color: #f9f9f9; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.dzsami-leiras p {
+  margin-bottom: 1em;
+  text-align: left;
+}
+
 .bottom-text {
   padding: 20px;
   text-align: right;
