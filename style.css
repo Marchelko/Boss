@@ -62,8 +62,8 @@ body {
   }
 
 .szentpál-image img {
-  height: 300px;
-  width: 450px;
+  height: 350px;
+  width: 420px;
   border-radius: 20px;
   object-fit: cover;
 }
