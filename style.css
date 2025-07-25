@@ -44,6 +44,7 @@ body {
   .text-box a {
    color: darkblue;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .center {
